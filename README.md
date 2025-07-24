@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ElectroPlay - Venta de Electrónicos</title>
+  <style>
+    body { font-family: Arial; margin: 0; background: #f4f4f4; }
+    header { background: #1a1a1a; color: white; padding: 20px; text-align: center; }
+    .productos { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+    .producto { background: white; border-radius: 8px; margin: 10px; padding: 15px; width: 200px; text-align: center; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .producto img { width: 100%; height: auto; }
+    footer { text-align: center; padding: 20px; background: #1a1a1a; color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ElectroPlay</h1>
+    <p>Venta de celulares, consolas y más</p>
+  </header>
+  <section class="productos">
+    <div class="producto">
+      <img src="https://via.placeholder.com/200x150" alt="Celular">
+      <h3>Celular Samsung</h3>
+      <p>$4,999 MXN</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/200x150" alt="Consola">
+      <h3>PlayStation 5</h3>
+      <p>$12,499 MXN</p>
+    </div>
+    <!-- Puedes añadir más productos -->
+  </section>
+  <footer>
+    © 2025 ElectroPlay | Contacto: contacto@electroplay.com
+  </footer>
+</body>
+</html>
